@@ -1,0 +1,83 @@
+.contactSection {
+    padding: 50px 20px;
+  background: linear-gradient(135deg, #f0f4ff, #ffffff);
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.contactTitle {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #1e40af;
+}
+
+.contactSubtitle {
+  font-size: 1.1rem;
+  color: #475569;
+  max-width: 600px;
+  margin: 0 auto 2.5rem auto;
+  line-height: 1.6;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #1e293b;
+  border-top: 4px solid #3b82f6;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  }
+
+  svg {
+    font-size: 1.8rem;
+    color: #3b82f6;
+  }
+
+  a {
+    color: #1e293b;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+
+    &:hover {
+      color: #2563eb;
+      text-decoration: underline;
+    }
+  }
+
+  span {
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactTitle {
+    font-size: 2.2rem;
+  }
+
+  .contactSubtitle {
+    font-size: 1rem;
+  }
+
+  .card {
+    padding: 1.2rem;
+  }
+}

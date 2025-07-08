@@ -74,7 +74,7 @@ const Header = () => {
         </nav>
 
         {/* CTA Button */}
-        <a href="tel:+1234567890" className={styles.ctaBtn}>
+        <a href="tel:+919327574166" className={styles.ctaBtn}>
           Let&apos;s Connect
         </a>
       </div>

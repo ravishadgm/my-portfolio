@@ -184,6 +184,7 @@
   font-size: 0.95rem;
   color: #374151;
   line-height: 1.6;
+  text-align: left;
 }
 
 .technologies {
@@ -217,4 +218,28 @@
   background-color: #e0e7ff;
   color: #1e3a8a;
   border-color: #c7d2fe;
+}
+@media (max-width: 640px) {
+  .cardHeader {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  .companyTop {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .meta {
+    justify-content: center;
+  }
+
+  .technologies {
+    justify-content: center;
+  }
 }

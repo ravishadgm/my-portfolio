@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Project.module.scss';
 import { motion } from 'framer-motion';
 import { FaMobileAlt, FaGlobe, FaTools } from 'react-icons/fa';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
 
 const categorizedProjects = {
   mobile: {
@@ -153,7 +154,7 @@ const Section = ({ icon, title, projects }) => (
 
 const Project = () => (
   <section className={styles.projectSection}>
-    <h1 className={styles.mainTitle}>My Projects</h1>
+             <SectionTitle text="My Projects" />
     <p className={styles.subtitle}>
       A comprehensive overview of my development work across mobile and web applications
     </p>

@@ -6,9 +6,16 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <p>
-          <a href="mailto:isabelle.ryal@example.com">isabelle.ryal@example.com</a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&to=viraniravisha@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            viraniravisha@gmail.com
+          </a>
+
           <span className={styles.separator}>|</span>
-          <a href="tel:+1234567890">+1 (234) 567-890</a>
+          <a href="tel:+919327574166">+91 9327574166</a>
         </p>
       </div>
     </footer>

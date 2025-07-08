@@ -5,15 +5,19 @@
   top: 0;
   z-index: 1000;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+}
 
-  .container {
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: relative;
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+
+  @media (max-width: 768px) {
+    justify-content: flex-start;
   }
 }
 
@@ -21,9 +25,35 @@
   font-size: 1.8rem;
   font-weight: 700;
   color: #1f2937;
+  margin: 0 40px;
 
   .highlight {
     color: #6366f1;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.6rem;
+    margin: 0 10px;
+  }
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+
+  span {
+    width: 25px;
+    height: 3px;
+    background-color: #1f2937;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+  }
+
+  @media (max-width: 768px) {
+    display: flex;
   }
 }
 
@@ -46,16 +76,22 @@
 
   @media (max-width: 768px) {
     flex-direction: column;
+    align-items: flex-start;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    background: white;
+    background: #fff;
     padding: 1rem 2rem;
-    gap: 1.5rem;
+    gap: 1.2rem;
     display: none;
+    z-index: 999;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
   }
+}
+
+.open {
+  display: flex !important;
 }
 
 .active {
@@ -63,29 +99,6 @@
   font-weight: 600;
   border-bottom: 2px solid #6366f1;
   padding-bottom: 4px;
-}
-
-.open {
-  display: flex !important;
-}
-
-.hamburger {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-
-  span {
-    width: 25px;
-    height: 3px;
-    background-color: #1f2937;
-    border-radius: 4px;
-    transition: all 0.3s ease;
-  }
-
-  @media (max-width: 768px) {
-    display: flex;
-  }
 }
 
 .ctaBtn {
@@ -97,6 +110,7 @@
   font-weight: 600;
   text-decoration: none;
   transition: all 0.3s ease;
+  margin-left: auto;
 
   &:hover {
     background-color: #4f46e5;
@@ -105,7 +119,6 @@
 
   @media (max-width: 768px) {
     font-size: 0.85rem;
-    padding: 0.5rem 1.2rem;
-    margin-left: auto;
+    padding: 0.5rem 1rem;
   }
 }

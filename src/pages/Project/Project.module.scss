@@ -1,9 +1,9 @@
 .projectSection {
-    padding: 50px 20px;
-
-  background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+  padding: 50px 20px;
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .mainTitle {
@@ -48,6 +48,7 @@
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 2px solid #e2e8f0;
+  justify-content: center;
 }
 
 .groupIcon {
@@ -70,20 +71,23 @@
 }
 
 .projectGrid {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 2rem;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .card {
   background: #ffffff;
-    height: auto;
-  min-height: 400px;
   display: flex;
   flex-direction: column;
   border-radius: 16px;
   padding: 1.5rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
   position: relative;
   border: 1px solid #e2e8f0;
@@ -102,21 +106,42 @@
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
     border-color: var(--accent-color);
   }
 }
 
-.card:nth-child(1) { --accent-color: #3b82f6; }
-.card:nth-child(2) { --accent-color: #8b5cf6; }
-.card:nth-child(3) { --accent-color: #06b6d4; }
-.card:nth-child(4) { --accent-color: #10b981; }
-.card:nth-child(5) { --accent-color: #f59e0b; }
-.card:nth-child(6) { --accent-color: #ef4444; }
-.card:nth-child(7) { --accent-color: #8b5cf6; }
-.card:nth-child(8) { --accent-color: #06b6d4; }
-.card:nth-child(9) { --accent-color: #10b981; }
-.card:nth-child(10) { --accent-color: #f59e0b; }
+.card:nth-child(1) {
+  --accent-color: #3b82f6;
+}
+.card:nth-child(2) {
+  --accent-color: #8b5cf6;
+}
+.card:nth-child(3) {
+  --accent-color: #06b6d4;
+}
+.card:nth-child(4) {
+  --accent-color: #10b981;
+}
+.card:nth-child(5) {
+  --accent-color: #f59e0b;
+}
+.card:nth-child(6) {
+  --accent-color: #ef4444;
+}
+.card:nth-child(7) {
+  --accent-color: #8b5cf6;
+}
+.card:nth-child(8) {
+  --accent-color: #06b6d4;
+}
+.card:nth-child(9) {
+  --accent-color: #10b981;
+}
+.card:nth-child(10) {
+  --accent-color: #f59e0b;
+}
 
 .projectTitle {
   font-size: 1.2rem;
@@ -244,7 +269,7 @@
   }
 }
 
-// Responsive design
+// Responsive tweaks (keeps layout same, just adjusts padding/font)
 @media (max-width: 768px) {
   .projectSection {
     padding: 3rem 0.5rem;
@@ -254,11 +279,6 @@
     font-size: 2.2rem;
   }
 
-  .groupHeader {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-  }
 }
 
 @media (max-width: 480px) {

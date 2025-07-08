@@ -1,70 +1,10 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Summary — Proficient React.js developer with 5+ years of experience building dynamic, responsive web and mobile applications using React, TypeScript, and related technologies. Skilled in state management with Redux, Context API, and Zustand. Experienced in integrating RESTful APIs and third-party services for smooth backend communication. Proficient in tools and frameworks such as Next.js, Expo, Ionic React, React Native, Webpack, Babel, and Tailwind CSS. Adept at delivering performant cross-platform solutions with clean, maintainable code.
+Skills
+Languages JavaScript (ES6+), TypeScript, HTML5, CSS, SCSS Frameworks & Libraries React.js, Next.js, Redux, Zustand, Context API, Tailwind CSS, Jest,
+Axios (REST APIs) Mobile Frameworks React Native, Expo, Ionic React Databases MongoDB, Firebase, Supabase (basic) DI Solutions July 2024 – May 2025 Worked on advanced React Native mobile apps for enterprise clients, focusing on performance optimization and user experience. Integrated biometric login, deep linking, and push notifications across platforms. Collaborated with cross-functional teams to ensure consistent product delivery. Technologies: React Native, TypeScript, Redux, Firebase, Reactjs,ionic React,expo
+Vision Infotech September 2021 – July 2024 Contributed to multiple full-stack projects, focusing on responsive frontend development and API integration. Delivered scalable components using React and state management via Redux and Zustand. Mentored junior developers and conducted code reviews to maintain code quality. Technologies: React.js, Next.js, Zustand, Tailwind CSS, Node.js
+Beact Infotech November 2020 – September 2021 Developed and maintained internal tools and client dashboards using React and JavaScript. Participated in Agile sprints, ensuring timely delivery of features and bug fixes. Improved UI/UX based on client feedback and usability testing. Technologies: React.js, JavaScript, SCSS, Axios
+Experience – Prognost: – Developed a real-time machinery monitoring system that tracks critical machine data, including speed, performance, and sensor readings. The system uses integrated sensors to monitor machine health, detect failures, and generate real-time alerts (high and low alerts) based on predefined thresholds. Notifications are sent to users in case of machine failure or abnormal conditions. – Developed a real-time machinery monitoring system to track machine performance, including speed and health using integrated sensors. – Created a dynamic graph to visualize alert data and machine performance metrics, allowing users to track the status and trends over time – Integrated sensors for real-time data collection, enabling accurate failure detection and alerts. – Technologies: React, typescripe, .net,redux,content API – Speed APP (Chinese app - Android, iOS) – Description Developed a cross-platform mobile application that tracks the user’s GPS location in real-time and finds the nearest camera location based on the user’s latitude and longitude coordinates. The app also includes a floating window feature that provides real-time notifications and location information without interrupting the user’s ongoing activities. Additionally, biometric authentication and Google login integration were implemented for secure user access. – Implemented GPS tracking and geo location functionality to calculate distances between the user and camera locations. – Designed and integrated the floating window feature using React Native libraries for Android and iOS platforms – set up Google and biometric authentication to ensure secure user logins – Technologies: React Native, node js,redux,content API
+– Waves MVP (Android, ios) – Developed a spiritual app focused on Bible verses, featuring a verse explorer, AI-powered chat for verse suggestions, and Bible poems. Integrated Google and Apple login, in-app purchases for premium content, and daily verse reminders with custom notifications. Added home and lock screen widgets for quick verse access without opening the app – Led the full-stack development of a spiritual app centered around Bible verses, from backend to frontend – Implemented an interactive chat feature that provides relevant Bible verses in response to user queries. – Integrated in-app purchases for premium content and features, including daily Bible verse reminders and widgets for home/lock screen views. – Set up Google and Apple login for seamless user authentication. – Designed and developed a user-friendly interface for easy navigation and browsing of Bible verses and poems – Technologies: React Native, firebase,redux,content API – Budget Planner – For the Budget Planner, we assess new and existing customers based on income, credit history, and debts to determine loan eligibility. Applications failing criteria are automatically rejected to ensure consistency. Clear rules help employees uniformly handle onboarding and advising. While digital forms improve efficiency over paper, they can still be error-prone and cause delays if data is entered incorrectly. – Developed dynamic digital forms to streamline loan eligibility checks for new and existing customers. – Implemented rule-based validations to ensure uniform application of eligibility criteria. – Enhanced data accuracy by reducing manual errors through field-level validations and guided user flows – Technologies: React,node js,typescript,redux,content API – Anton – Description Anton- developed an app for amazon advertisement, which allowed user to achieve desired value of bid for marketing by conditionally changing values of specific campaign reports( integrating redux and other third party libraries)using react.js. – Developed a dynamic campaign optimization tool using React.js for Amazon Ads – Integrated Redux for scalable state management across complex ad report data.. – Applied conditional logic to update bid values based on real-time campaign metrics – Integrated REST APIs and third-party marketing services – Technologies: React,node js,javascript,redux,content API – Matla Life – Matla Life is a sales and marketing solutions company that engineers services relevant to diverse partners. They offer innovative solutions for African business problems. The project involved creating a tablet application where users can save customer information, evaluate financial needs, provide quotes, and assist with the application process. – Led the complete frontend development of a tablet application using React. – Designed and implemented intuitive UI screens for capturing customer information, performing financial assessments, generating quotes, and assisting in the application process. – Collaborated closely with the backend team to integrate APIs for real-time data syncing and application submission. – Ensured seamless user experience with responsive layouts optimized for tablet devices. – Handled form validations, conditional flows, and state management to support dynamic user journeys. – Technologies: React, Node.js, JavaScript, Redux, Context API – others..
+Education
+Bachelor of Computer Applications Veer Narmad South Gujarat University,surat Higher Secondary Tapovan vidhyalaya,surat

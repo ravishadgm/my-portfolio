@@ -1,43 +1,45 @@
-import React from 'react';
-import styles from './Contact.module.scss';
-import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaLinkedin, FaGithub } from 'react-icons/fa';
+import React from "react";
+import styles from "./Contact.module.scss";
+import {
+  FaEnvelope,
+  FaPhoneAlt,
+  FaMapMarkerAlt,
+  FaLinkedin,
+  FaGithub,
+} from "react-icons/fa";
+import SectionTitle from "../../components/SectionTitle/SectionTitle";
 
 const Contact = () => {
   return (
     <section className={styles.contactSection}>
-      <h2 className={styles.contactTitle}>Let’s Connect 🚀</h2>
+      <SectionTitle text="Let's Connect" />
+
       <p className={styles.contactSubtitle}>
-        Whether it's about a project, opportunity, or just a friendly chat — I’d love to hear from you.
+        Ready to build something amazing together? Whether you need a React
+        developer, mobile app specialist, or want to discuss your next project —
+        I'd love to hear from you!
       </p>
 
       <div className={styles.contactGrid}>
         <div className={styles.card}>
           <FaEnvelope />
-          <a href="mailto:yourname@example.com">yourname@example.com</a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&to=viraniravisha@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            viraniravisha@gmail.com
+          </a>
         </div>
 
         <div className={styles.card}>
           <FaPhoneAlt />
-          <a href="tel:+1234567890">+1 234 567 890</a>
+          <a href="tel:+919327574166">+91 9327574166</a>
         </div>
 
         <div className={styles.card}>
           <FaMapMarkerAlt />
-          <span>Cape Town, South Africa</span>
-        </div>
-
-        <div className={styles.card}>
-          <FaLinkedin />
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-            linkedin.com/in/yourprofile
-          </a>
-        </div>
-
-        <div className={styles.card}>
-          <FaGithub />
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-            github.com/yourusername
-          </a>
+          <span>Surat, Gujarat, India</span>
         </div>
       </div>
     </section>

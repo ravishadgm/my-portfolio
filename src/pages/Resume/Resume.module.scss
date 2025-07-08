@@ -1,0 +1,70 @@
+.resumeSection {
+  padding: 60px 0;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  background-color: #f9fafb;
+  color: #0f172a;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #475569;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  padding: 0 10px;
+}
+
+.resumeViewer {
+  width: 60vw;
+  max-width: 100%;
+  margin: 0 auto 2rem;
+  overflow: hidden;
+  background-color: white;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  height: 100vh;
+    @media (max-width: 1200px) {
+    width: 100vw;;
+  }
+}
+
+.pdfFrame {
+  display: block;
+  width: 100vw; // Make iframe full screen width
+  height: 100%; // Or adjust height as needed
+  max-width: 100%;
+  border: none;
+  margin: 0; // Remove centering margin
+  padding: 0;
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.downloadButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+  margin-top: 1rem;
+
+  &:hover {
+    background-color: #1d4ed8;
+  }
+
+  .icon {
+    font-size: 1rem;
+  }
+}

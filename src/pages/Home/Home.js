@@ -51,7 +51,7 @@ const charVariant = {
 };
 
 const Home = () => {
-  const name = "Isabelle Ryal";
+  const name = "Ravisha Virani";
   const nameChars = name.split("");
 
   return (
@@ -66,7 +66,7 @@ const Home = () => {
             animate="visible"
           >
             <h4>
-              <span className={styles.dot}></span>Hello, I’m
+              <span className={styles.dot}></span>Hello, I'm
             </h4>
 
             {/* Animated H1 */}
@@ -83,13 +83,13 @@ const Home = () => {
               ))}
             </motion.h1>
 
-            <h2>Web Developer & Blockchain Enthusiast</h2>
+            <h2>React.js Developer & React Native Developer</h2>
             <p>
-              Crafting modern, fast, and responsive web applications using
-              <span> JavaScript</span>, <span>React</span>, and{" "}
-              <span>Next.js</span>.
+              Crafting dynamic, responsive web and mobile applications using
+              <span> React</span>, <span>React Native</span>, and{" "}
+              <span>Next.js</span> with 5+ years of experience.
             </p>
-            <button>Hire Me</button>
+          
           </motion.div>
 
           <motion.div
@@ -98,7 +98,7 @@ const Home = () => {
             initial="hidden"
             animate="visible"
           >
-            <img src={heroImg} alt="Isabelle Ryal" />
+            <img src={heroImg} alt="Ravisha Virani" />
           </motion.div>
         </div>
 
@@ -142,19 +142,18 @@ const Home = () => {
             LET ME <span>INTRODUCE</span> MYSELF
           </h2>
           <p>
-            I fell in love with programming and constantly strive to improve.
-            I'm fluent in
-            <span className={styles.highlight}> C++, JavaScript, and Go</span>.
-            My passion lies in building innovative{" "}
-            <span className={styles.highlight}>web applications</span> and
-            exploring
-            <span className={styles.highlight}> blockchain technologies</span>.
-            I enjoy working with
-            <span className={styles.highlight}> Node.js</span> and modern
-            frameworks like
-            <span className={styles.highlight}> React</span> and{" "}
-            <span className={styles.highlight}>Next.js</span>, using them to
-            turn ideas into clean, efficient products.
+            I'm a proficient React.js developer with 5+ years of experience building dynamic, 
+            responsive web and mobile applications. I'm fluent in
+            <span className={styles.highlight}> JavaScript, TypeScript, and modern frameworks</span>.
+            My passion lies in creating innovative{" "}
+            <span className={styles.highlight}>cross-platform solutions</span> and
+            delivering
+            <span className={styles.highlight}> performant applications</span>.
+            I specialize in
+            <span className={styles.highlight}> React.js, React Native</span> and{" "}
+            <span className={styles.highlight}>Next.js</span>, with expertise in
+            state management using Redux, Context API, and Zustand. I focus on
+            turning complex ideas into clean, maintainable, and scalable products.
           </p>
         </div>
       </motion.section>

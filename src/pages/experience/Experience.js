@@ -5,10 +5,9 @@ import styles from './Experience.module.scss';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 
 const experiences = [
- 
-   {
+  {
     company: "Beact Infotech",
-    logo: <FaCode className={styles.icon} />,
+    logo: <FaLaptopCode className={styles.icon} />,
     logoColor: styles.grayLogo,
     duration: "2020 – 2021",
     location: "Surat, India",
@@ -22,12 +21,10 @@ const experiences = [
     ],
     technologies: ["React.js", "JavaScript", "SCSS", "Axios"]
   },
- 
-    {
+  {
     company: "Vision Infotech",
     logo: <FaLaptopCode className={styles.icon} />,
     logoColor: styles.blueLogo,
-
     duration: "Sep 2021 – July 2024",
     location: "Surat, India",
     positions: [
@@ -39,14 +36,13 @@ const experiences = [
       }
     ],
     technologies: ["React.js", "Next.js", "Zustand", "Tailwind CSS", "Node.js"]
-  }, {
+  },
+  {
     company: "DI Solutions",
     logo: <FaMobileAlt className={styles.icon} />,
     logoColor: styles.redLogo,
     location: "Surat, India",
-
     duration: "July 2024 – May 2025",
-
     positions: [
       {
         title: "React Native Developer",
@@ -57,8 +53,25 @@ const experiences = [
     ],
     technologies: ["React Native", "TypeScript", "Redux", "Firebase", "Expo", "Ionic React"]
   },
-
+  {
+    company: "Resilient Technology",
+    logo: <FaLaptopCode className={styles.icon} />,
+    logoColor: styles.greenLogo,
+    location: "Surat, India",
+    duration: "May 2025 – Present",
+    positions: [
+      {
+        title: "Frontend Engineer",
+        period: "May 2025 – Present",
+        description:
+          "Leading frontend development for SaaS platforms using React and TypeScript. Implementing design systems, improving performance, and collaborating closely with product and backend teams."
+      }
+    ],
+    technologies: ["React.js", "TypeScript", "Tailwind CSS", "Redux Toolkit", "Vite", "Jest"]
+  }
 ];
+
+
 
 const ExperienceCard = ({ experience }) => {
   return (

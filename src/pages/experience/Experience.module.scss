@@ -13,6 +13,9 @@
 
 
 
+.greenLogo {
+  color: #16a34a;
+}
 
 .experienceList {
   display: flex;
@@ -113,6 +116,10 @@
   background-color: #ef4444;
 }
 
+.greenLogo  {
+  background-color: #16a34a;
+}
+
 .companyContent {
   flex: 1;
 }
@@ -146,7 +153,6 @@
 .icon {
   width: 1rem;
   height: 1rem;
-  margin-right: 0.35rem;
 }
 
 .positions {

@@ -11,38 +11,77 @@
 .subtitle {
   font-size: 1rem;
   color: #475569;
-  margin-bottom: 2rem;
-  max-width: 600px;
   margin: 0 auto 2rem;
+  max-width: 600px;
   padding: 0 10px;
 }
 
 .resumeViewer {
-  width: 60vw;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 80vh;
+}
+
+.pdfDocument {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pdfPage {
+  margin: 1rem 0;
+  scroll-snap-align: start;
   max-width: 100%;
-  margin: 0 auto 2rem;
-  overflow: hidden;
-  background-color: white;
-  border: none;
-  box-shadow: none;
-  border-radius: 0;
-  height: 100vh;
-    @media (max-width: 1200px) {
-    width: 100vw;;
+  canvas {
+    max-width: 95vw;
+    width: 100%;
+    height: auto;
+    
   }
 }
 
-.pdfFrame {
-  display: block;
-  width: 100vw; // Make iframe full screen width
-  height: 100%; // Or adjust height as needed
-  max-width: 100%;
-  border: none;
-  margin: 0; // Remove centering margin
-  padding: 0;
-  overflow: scroll;
-  &::-webkit-scrollbar {
-    display: none;
+.paginationControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 2rem;
+
+  button {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    background-color: #e0e7ff;
+    color: #1e3a8a;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+
+    &:hover:not(:disabled) {
+      background-color: #c7d2fe;
+      transform: translateY(-1px);
+    }
+
+    &:disabled {
+      background-color: #f1f5f9;
+      color: #94a3b8;
+      cursor: not-allowed;
+    }
+  }
+
+  .pageIndicator {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #334155;
   }
 }
 
@@ -58,7 +97,7 @@
   text-decoration: none;
   border-radius: 8px;
   transition: background-color 0.2s ease;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 
   &:hover {
     background-color: #1d4ed8;

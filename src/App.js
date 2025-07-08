@@ -9,7 +9,7 @@ import About from "./pages/AboutUs/About";
 import Experience from './pages/experience/Experience';
 import Project from './pages/Project/Project';
 import Contact from './pages/Contact/Contact';
-import Resume from './pages/Resume/Resume';
+import Resume from './pages/Resume/Resume'
 
 
 function App() {
